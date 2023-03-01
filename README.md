@@ -29,7 +29,7 @@ The distribution of the target variable is visualized in the plot below. Subscri
 
 ![Term Deposit Distribution](./Images/term_deposit_distribution.png)
 
-I then wanted to gain insights about the types of customers who have historically subscribed to term deposits. I created a number of visualizations which can be seen in the jupyter notebook that look at subscription rate given a certain attribute. The following visualizations stood out to me as potential areas for strategic action:
+I then wanted to gain insights about the types of customers who have historically subscribed to term deposits. I created a number of visualizations which can be seen in the [Jupyter Notebook](./Final_Notebook/Jupyter_Notebook.ipynb) that look at subscription rate given a certain attribute. The following visualizations stood out to me as potential areas for strategic action:
 
 ![Age Range](./Images/age_range.png)
 
