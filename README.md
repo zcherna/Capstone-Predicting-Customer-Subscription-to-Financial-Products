@@ -33,4 +33,12 @@ I then wanted to gain insights about the types of customers who have historicall
 
 ![Age Range](./Images/age_range.png)
 
-When comparing subscription rate by age I chose to bin the customers into 3 ranges, each representing a distinct stage of life. As you can see, subscription is greatest in the oldest age group consisting of 60-90 year olds, followed by the young 0-30 age group, and then the lowest subscription rates are found in the middle 30-60 year old age group.
+When comparing subscription rate by age I chose to bin the customers into 3 ranges, each representing a distinct stage of life. As you can see in the plot above, subscription is greatest in the oldest age group consisting of 60-90 year olds, followed by the young 0-30 age group, and then the lowest subscription rates are found in the middle 30-60 year old age group.
+
+![Job Type](./Images/job_type.png)
+
+When grouping customers by employment, the results tell a similar story to the previous finding about the young and old age groups. As you can see, the 2 groups with the highest subscription rates are students and retirees, and the lowest rates are among members of the workforce who primarily fall into the middle age category. 
+
+![Mortgage](./Images/mortgage.png)
+
+In this plot I looked at subscription rate vs. mortgage status. As you can see, customers with a mortgage were less likely to subscribe to a term deposit. 
