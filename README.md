@@ -66,18 +66,20 @@ See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [p
 ## Repository Structure
 
 ```
+
+├── Data
+│   ├── train_banking.csv
+├── Final Notebook
+│   ├── Jupyter_Notebook.ipynb
 ├── Images
 │   ├── age_range.png
 │   ├── job_type.png
 │   ├── mortgage.png
 │   ├── slides_header.png
 │   ├── term_deposit_distribution.png
+├── Presentation
+│   ├── presentation.pdf
 ├── .gitignore
-├── Data
-│   ├── train_banking.csv
-├── Final Notebook
-│   ├── Jupyter_Notebook.ipynb
-├── presentation.pdf
 └── README.md
 ```
 
