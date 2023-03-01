@@ -84,7 +84,9 @@ See the full analysis in the [Jupyter Notebook](./Final_Notebook/Jupyter_Noteboo
 ├── Final_Notebook
 │   ├── Jupyter_Notebook.ipynb
 ├── Images
+│   ├── AUC.png
 │   ├── age_range.png
+│   ├── confusion_matrix.png
 │   ├── job_type.png
 │   ├── mortgage.png
 │   ├── slides_header.png
