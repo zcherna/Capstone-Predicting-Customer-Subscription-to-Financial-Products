@@ -56,7 +56,7 @@ The best model turned out to be the Gradient Boost Classifier with the following
 3. max_depth = 3
 4. n_estimators = 500 
 
-The accuracy score was about 93% on the training data, and 91% on the test data. This does indicate slight overfitting and could potentially be improved with further hyperparameter tuning. However, it is a noticeable improvement over the dummy models 88% accuracy. The following is a list of additional metrics for the best model:
+The accuracy score was about 93% on the training data, and 91% on the test data. This does indicate slight overfitting and could potentially be improved with further hyperparameter tuning. However, it is a noticeable improvement over the dummy models 88% accuracy and should be utilized in the future as a tool to predict term deposit subscription.The following is a list of additional metrics for the best model:
 1. Accuracy : 91%
 2. Recall : 47%
 3. Precision : 64%
