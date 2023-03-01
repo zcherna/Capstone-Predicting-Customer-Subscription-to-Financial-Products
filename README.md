@@ -57,7 +57,7 @@ The bank needs to capitalize on the high yield customers who are already a natur
 The strategy that I outlined today should help the bank maximize future subscriptions, and minimize customer acquisition costs. However, as time goes on, new factors will inevitably influence whether or not a customer is likely to subscribe. Therefore, my model should continue to be used, updated and fine tuned as more data becomes available. I’m also working on an application to deploy the model, which I hope to have available soon. 
 ## For More Information   
 
-See the full analysis in the [Jupyter Notebook](./Final_Notebook/Jupyter_Notebook.ipynb) or review this [presentation](Presentation./presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./Final_Notebook/Jupyter_Notebook.ipynb) or review this [Presentation](./Presentation/presentation.pdf).
 
 **For additional info, contact:**
 - Zach Cherna: zacharycherna@gmail.com
