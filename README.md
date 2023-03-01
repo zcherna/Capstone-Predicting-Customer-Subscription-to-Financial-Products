@@ -73,10 +73,10 @@ See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [p
 │   ├── slides_header.png
 │   ├── term_deposit_distribution.png
 ├── .gitignore
-├── eda_notebooks
-│   ├── index_Nate - v3.ipynb.csv
-│   ├── index_just_eda_zach.ipynb
-├── notebook.ipynb
+├── Data
+│   ├── train_banking.csv
+├── Final Notebook
+│   ├── Jupyter_Notebook.ipynb
 ├── presentation.pdf
 └── README.md
 ```
