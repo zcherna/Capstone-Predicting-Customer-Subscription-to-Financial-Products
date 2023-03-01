@@ -49,5 +49,16 @@ The baseline dummy model, which predicts the majority class, has an accuracy sco
 
 The first step in my modeling process was to perform data preprocessing. I created a new column called ‘made_deposit_binary’, which assigned a 0 to customers who did not subscribe and a 1 to customers who did subscribe to a term deposit. I then created a numeric pipeline to StandardScale numeric data, and a categorical pipeline to OneHotEncode categorical data. I then assigned variables to the numeric and categorical feature columns, and instantiated a column transformer containing the mini pipelines. My next step was to assign variables to my predictors and target, and then split the data into a training and test set. To easily obtain cross validation scores and visualize my models, I imported the "ModelWithCV()" class provided by Flatiron which uses 10 as the kfolds parameter. As I mentioned earlier, there is a class imbalance in this dataset. To account for this, I used the SMOTE oversampling technique, however the results did not show any accuracy improvement over the models without SMOTE. I then utilized GridSearch in order to perform hyperparameter tuning. 
 In the next section, I discuss the results of my final model. 
+# Final Evaluation
 
+# Recommendations
+The bank needs to capitalize on the high yield customers who are already a natural fit for a term deposit. Based on my findings, high yield customers include the young and old age groups, students, retirees, and people without a mortgage. However, my model should be used to make predictions about individual customers and group them accordingly. Recognizing that call centers are effective yet expensive, I recommend that the bank start its next campaign with a lean call center that is specifically dedicated to converting that small pool of high yield customers. As for the low yield customers, I would recommend targeting them with an automated email campaign that offers promotions that fit their specific needs. For example, a flexible duration deposit whereby they could access liquidity sooner than normal. 
+# Next Steps
+The strategy that I outlined today should help the bank maximize future subscriptions, and minimize customer acquisition costs. However, as time goes on, new factors will inevitably influence whether or not a customer is likely to subscribe. Therefore, my model should continue to be used, updated and fine tuned as more data becomes available. I’m also working on an application to deploy the model, which I hope to have available soon. 
+## For More Information   
+
+See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [presentation](./presentation.pdf).
+
+**For additional info, contact:**
+- Zach Cherna: zacharycherna@gmail.com
 
