@@ -76,7 +76,7 @@ See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [p
 ├── Data
 │   ├── train_banking.csv
 ├── Final Notebook
-│   ├── Banking_dataset.ipynb
+│   ├── Jupyter_Notebook.ipynb
 ├── presentation.pdf
 └── README.md
 ```
