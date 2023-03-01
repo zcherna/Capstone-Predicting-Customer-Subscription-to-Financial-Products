@@ -62,3 +62,23 @@ See the full analysis in the [Jupyter Notebook](./index.ipynb) or review this [p
 **For additional info, contact:**
 - Zach Cherna: zacharycherna@gmail.com
 
+
+## Repository Structure
+
+```
+├── Images
+│   ├── age_range.png
+│   ├── job_type.png
+│   ├── mortgage.png
+│   ├── slides_header.png
+│   ├── term_deposit_distribution.png
+├── .gitignore
+├── eda_notebooks
+│   ├── index_Nate - v3.ipynb.csv
+│   ├── index_just_eda_zach.ipynb
+├── notebook.ipynb
+├── presentation.pdf
+└── README.md
+```
+
+
