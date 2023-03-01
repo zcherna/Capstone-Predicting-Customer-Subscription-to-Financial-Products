@@ -24,3 +24,9 @@ It consists of 45,211 rows of data pertaining to customers of a Portuguese retai
 14. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
 15. previous: number of contacts performed before this campaign and for this client (numeric)
 16. poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
+# Exploratory Data Analysis
+The distribution of the target variable is visualized in the plot below. Subscription rate was 11.70% which implies the dataset is disproportionate in that it has substantially more samples of customers who did not subscribe than customers who did subscribe to a term deposit. Later in my analysis, I utilize SMOTE as an oversampling technique to account for this class imbalance. 
+![Term Deposit Distribution](./Images/term_deposit_distribution.png)
+I then wanted to gain insights about the types of customers who have historically subscribed to term deposits. I created a number of visualizations which can be seen in the jupyter notebook that look at subscription rate given a certain attribute. The following visualizations stood out to me as potential areas for strategic action: 
+![Age Range](./Images/age_range.png)
+When comparing subscription rate by age I chose to bin the customers into 3 ranges, each representing a distinct stage of life. As you can see, subscription is greatest in the oldest age group consisting of 60-90 year olds, followed by the young 0-30 age group, and then the lowest subscription rates are found in the middle 30-60 year old age group.
