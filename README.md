@@ -63,6 +63,14 @@ The accuracy score was about 93% on the training data, and 91% on the test data.
 4. F1 Score : 54%
 5. ROC_AUC : 0.93
 
+![AUC](./Images/AUC.png)
+
+ROC curve is plotted above. The AUC score is a measurement of the ratio of the rate of True Positives to False postives, with a higher score being better.
+
+![Confusion_Matrix](./Images/confusion_matrix.png)
+
+The Confusion Matrix above is a useful tool to visualize the models errors. The top right square indicates False Positives, while the bottom left sqaure indicates False Negatives.
+
 # Recommendations
 The bank needs to capitalize on the high yield customers who are already a natural fit for a term deposit. Based on my findings, high yield customers include the young and old age groups, students, retirees, and people without a mortgage. However, my model should be used to make predictions about individual customers and group them accordingly. Recognizing that call centers are effective yet expensive, I recommend that the bank start its next campaign with a lean call center that is specifically dedicated to converting that small pool of high yield customers. As for the low yield customers, I would recommend targeting them with a less costly automated email campaign that offers promotions that fit their specific needs. For example, a flexible duration deposit whereby they could access liquidity sooner than normal. 
 # Next Steps
