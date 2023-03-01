@@ -1,2 +1,2 @@
-![header](./images/slides_header.png)
+![header](./Images/slides_header.png)
 # Overview
